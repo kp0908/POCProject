@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 66.665 s <<< FAILURE! - in TestSuite
+parallelExecution.ParallelDemo.toRunTestParallel  Time elapsed: 10.188 s  <<< FAILURE!
+java.lang.AssertionError: expected [HP ALM] but found [Selenium]
+	at parallelExecution.ParallelDemo.toRunTestParallel(ParallelDemo.java:68)
+
+parallelExecution.ParallelDemo.toRunTestParallel  Time elapsed: 10.279 s  <<< FAILURE!
+java.lang.AssertionError: expected [HP ALM] but found [Selenium]
+	at parallelExecution.ParallelDemo.toRunTestParallel(ParallelDemo.java:68)
+
+parallelExecution.ParallelDemo.toRunTestParallel  Time elapsed: 9.563 s  <<< FAILURE!
+java.lang.AssertionError: expected [HP ALM] but found [Selenium]
+	at parallelExecution.ParallelDemo.toRunTestParallel(ParallelDemo.java:68)
+

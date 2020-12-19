@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Parallel test suite]" parallel="none">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="listerners.RetryListenerClass"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="none">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="parallelExecution.ParallelDemo">
+        <methods>
+          <include name="toRunTestParallel"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- parallelExecution.ParallelDemo -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
