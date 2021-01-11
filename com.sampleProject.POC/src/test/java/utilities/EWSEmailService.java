@@ -306,8 +306,8 @@ public class EWSEmailService {
 				}
 				
 				// Sending emails 
-				msg.save();
-				//msg.sendAndSaveCopy();
+				//msg.save();
+				msg.sendAndSaveCopy();
 				System.out.println("Email Sent..!!");
 				 
 			} else {
@@ -347,9 +347,5 @@ public class EWSEmailService {
 			System.out.println("Exception logs:");
 			e.printStackTrace();
 		}
-	}
-
-	public static void main(String[] args) {
-		sendeMail();
 	}
 }
